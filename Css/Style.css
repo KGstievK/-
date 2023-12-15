@@ -225,7 +225,7 @@ a {
 
 #rool {
   background: url("../img/Bg-footer.png") no-repeat center/cover;
-  min-height: 500vh;
+  min-height: 100vh;
 }
 #choice {
   padding: 140px 0;
@@ -635,6 +635,9 @@ font-weight: 400;
   width: 278px;
 }
 @media (max-width: 1920px){
+  #footer {
+    width: 99.80%;
+  }
   .mobi-nav {
     display: none;
   }
@@ -644,7 +647,7 @@ font-weight: 400;
     display: none;
   }
   #footer {
-    width: 99.9%;
+    width: 99%;
   }
 }
 
